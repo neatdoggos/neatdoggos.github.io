@@ -922,7 +922,7 @@ img {
     flex: 0 0 auto;
     border-radius: 9px;
     background-color: #f6b454;
-    box-shadow: 0 3px 0 0 rgba(32, 32, 32, 0.05);
+    /*box-shadow: 0 3px 0 0 rgba(32, 32, 32, 0.05);*/
     -webkit-transition: box-shadow 200ms ease, border-color 200ms ease, color 200ms ease, background-color 200ms ease, -webkit-transform 200ms ease;
     transition: box-shadow 200ms ease, border-color 200ms ease, color 200ms ease, background-color 200ms ease, -webkit-transform 200ms ease;
     transition: box-shadow 200ms ease, transform 200ms ease, border-color 200ms ease, color 200ms ease, background-color 200ms ease;
