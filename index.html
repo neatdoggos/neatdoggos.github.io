@@ -54,7 +54,7 @@
     <div class="nav-container w-container">
         <div class="logo-div">
             <a href="https://neatdoggos.art" aria-current="page" class="nav-logo w-inline-block w--current">
-                <img src="assets/logo/logo.svg" class="logo" width="60">
+                <img src="assets/logo/logo.svg" class="logo" width="65">
             </a>
         </div>
         <nav role="navigation" class="nav-content w-nav-menu">
@@ -84,7 +84,7 @@
                 <div class="featured-nft-6 w-dyn-list">
                     <div role="list" class="w-dyn-items">
                         <div role="listitem" class="w-dyn-item">
-                            <img src="assets/examples/1.svg" class="nft-image"/>
+                            <img src="assets/examples/8.svg" class="nft-image"/>
                         </div>
                     </div>
                 </div>
@@ -98,21 +98,21 @@
                 <div class="featured-nft-3 w-dyn-list">
                     <div role="list" class="w-dyn-items">
                         <div role="listitem" class="w-dyn-item">
-                            <img src="assets/examples/3.svg" class="nft-image"/>
+                            <img src="assets/examples/10.svg" class="nft-image"/>
                         </div>
                     </div>
                 </div>
                 <div class="featured-nft-2 w-dyn-list">
                     <div role="list" class="w-dyn-items">
                         <div role="listitem" class="w-dyn-item">
-                            <img src="assets/examples/2.svg" class="nft-image"/>
+                            <img src="assets/examples/9.svg" class="nft-image"/>
                         </div>
                     </div>
                 </div>
                 <div class="featured-nft w-dyn-list">
                     <div role="list" class="w-dyn-items">
                         <div role="listitem" class="w-dyn-item">
-                            <img src="assets/examples/5.svg" class="nft-image"/>
+                            <img src="assets/examples/6.svg" class="nft-image"/>
                         </div>
                     </div>
                 </div>
@@ -227,5 +227,12 @@
         </div>
     </div>
 </div>
+<script type="application/javascript">
+    setInterval(() => {
+      for (const image of document.getElementsByClassName('nft-image')) {
+        image.src = `/assets/examples/${Math.floor(Math.random() * 10) || 1}.svg`
+      }
+    }, 1000 * 30)
+</script>
 </body>
 </html>
