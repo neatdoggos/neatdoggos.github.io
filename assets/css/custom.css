@@ -1486,6 +1486,10 @@ img {
     margin-left: auto;
 }
 
+.circle {
+    border-radius: 50%;
+}
+
 .logo {
     display: block;
     margin-top: 4px;
